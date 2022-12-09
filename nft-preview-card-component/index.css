@@ -1,0 +1,157 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}  
+   
+#container {
+    padding: 24px;
+    background-color: #15263F;
+    border-radius: 15px;
+}
+
+#image-div {
+    position: relative;
+}
+
+#green {
+    width: 302px;
+    height: 302px;
+    background-color: rgba(0, 255, 248, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 8px;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#equilibrium-img {
+    border-radius: 8px;   
+}
+
+#eye-img {
+    opacity: 0;
+    transition: .5s;  
+}
+
+#h1-equ {
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+
+
+
+#p-Slogan {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    color: #8BACD9;
+    padding-top: 16px;
+    margin-bottom: 24px;
+}
+
+#information {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#eth-div {
+    display: flex;
+    align-items: center;
+}
+
+#clock-div {
+    display: flex;
+    align-items: center;
+}
+
+#eth-amount {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 16;
+    color: #00FFF8;
+    margin-left: 6.48px;
+}
+ 
+#time-left {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8BACD9;
+    margin-left: 7.7px;
+}
+
+.line-1 {
+    margin-top: 24px;
+    margin-bottom: 22px;
+    border-top: 1px solid #2E405A;
+}
+
+#avatar-div {
+    display: flex;
+    align-items: center;
+}
+
+#avatar-img {
+    margin-right: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+#p-creation {
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8BACD9;
+    margin-right: 5px;
+}
+
+#p-creator-name {
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#p-creator-name:hover {
+    color: #00FFF8;
+} 
+
+#image-div:hover #eye-img  {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#image-div:hover #green {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#h1-equ:hover {
+    color: #00FFF8;
+    transition: .5s;
+}
+
+
+
+
+
+
+
